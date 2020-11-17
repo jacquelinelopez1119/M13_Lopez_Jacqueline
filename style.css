@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding: 0;
+	color:#434342;
+}
+header img{
+	width:20%;
+	height: 20%;
+	margin-left:40%;
+
+}
+h1{
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+	color: rgba(49,15,90,0.72);
+	margin-top:-9px;
+}
+nav{
+	width:100%;
+	top: 0;
+	left:0;
+	z-index: 1;
+	background: rgb(238,207,174);
+background: linear-gradient(90deg, rgba(238,207,174,1) 5%, rgba(238,174,202,1) 53%, rgba(148,187,233,1) 100%);
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding:1.1%;
+	
+}
+nav ul li{
+	display: inline;
+	color: #EFEFEF;
+	padding: 3%;
+	font-size: 1.2rem;
+    font-family: 'Jost', sans-serif;
+		text-shadow: 1px 1px 4px #454545;
+	
+}
+
+section h2{
+	font-family: 'Jost', sans-serif;
+	text-align: center;
+	color:rgba(49,15,90,0.79);
+	font-size:1.3rem;
+}
+section p{
+	padding: 0 5%;
+	text-align: center;
+}
+
+.image{
+	width: 100%;
+}
+figcaption{
+	text-align: center;
+}
+aside{
+	clear: left;
+	background-color: rgba(49,15,90,0.72);
+	text-align: center;
+	width: 83%;
+	margin-left: 8%;
+}
+aside .sign_up h3{
+	text-align: center;
+	font-size: 1.4rem;
+    padding-top:3%;
+	color:white;
+	font-family: 'Jost', sans-serif;
+}
+aside .sign_up{
+	color:white;
+	text-align: left;
+	margin-left:5%;
+}
+
+aside .info{
+	width: 90%;
+	
+}
+
+
+.side{
+	width: 90%;
+	margin-top:5%;
+	margin-left:2%;
+	padding: 2%;
+	border-top: 5px solid #eeaeca;
+	border-left: 5px solid #eeaeca;
+	border-bottom: 5px solid #eeaeca;
+	border-right: 5px solid #eeaeca;
+}
+footer{
+	clear:both;
+	background: rgb(238,207,174);
+    background: linear-gradient(90deg, rgba(238,207,174,1) 5%, rgba(238,174,202,1) 53%, rgba(148,187,233,1) 100%);
+	padding: 7%;
+}
+
+/*Desktop*/
+
+
+@media (min-width:1024px){
+	
+header img{
+	width:10%;
+	height: 20%;
+	margin-left:45%;
+
+}
+h1{
+	font-size: 2.2rem;
+}
+
+
+	h2{
+		font-size:1.2rem;
+	}
+	aside{
+		
+		float: left;
+		width: 35%;
+		margin-left:10%;
+		
+		
+	}
+	figure {
+		float:left;
+	    width: 30%;
+		margin-top:-1%;
+	}
+	
+	nav ul li{
+		font-size:1rem;
+		padding:9%;
+		
+	}
+.img{
+	float: left;
+    width:100%;
+	
+	}
+	.image{
+		width: 40%;
+		float: left;
+	}
+}
+
+
