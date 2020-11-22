@@ -53,55 +53,107 @@ section p{
 	text-align: center;
 }
 
-.image{
-	width: 100%;
+figure img{
+	width: 90%;
+	padding:5%;
 }
 figcaption{
-	text-align: center;
+	color:white;
 }
-aside{
+section .pink{
+	background-color:#EEB0C7;
+	margin: 0;
+	padding: 2%;
+}
+
+section .blue{
+	background-color:#97BAE7;
+	margin: 2% 0;
+	padding: 2%;
+}
+
+section .peach{
+	background-color:#EDCDAF;
+
+	padding: 2%;
+		margin: 2% 0;
+}
+
+figcaption{
+	font-variant-caps: unicase;
+	text-align: center;
+	font-family: 'Jost', sans-serif;
+		text-shadow: 1px 1px 4px #454545;
+}
+
+.form section{
 	clear: left;
 	background-color: rgba(49,15,90,0.72);
-	text-align: center;
-	width: 83%;
-	margin-left: 8%;
+	width: 90%;
+	margin-left: 2%;
+	color:white;
+	text-align: left;
+	padding:3%;
+	
 }
-aside .sign_up h3{
+
+.info {
+	
+	width: 80%;
+}
+section .all{
+	margin-left:10%;
+}
+textarea{
+	padding: 10%;
+	width: 60%;
+	height: 90%;
+	margin-bottom:2%;
+}
+section h3{
 	text-align: center;
 	font-size: 1.4rem;
     padding-top:3%;
 	color:white;
 	font-family: 'Jost', sans-serif;
 }
-aside .sign_up{
-	color:white;
-	text-align: left;
-	margin-left:5%;
+.btn{
+	border: none;
+    padding: 2% 4%;
+	margin:2% 0;
+	color: black;
+	background-color: white;
+	text-decoration: none;
 }
-
-aside .info{
-	width: 90%;
-	
-}
-
-
 .side{
 	width: 90%;
 	margin-top:5%;
 	margin-left:2%;
 	padding: 2%;
-	border-top: 5px solid #eeaeca;
-	border-left: 5px solid #eeaeca;
-	border-bottom: 5px solid #eeaeca;
-	border-right: 5px solid #eeaeca;
+	border-top: 5px solid #EDCDAF;
+	border-left: 5px solid #EDCDAF;
+	border-bottom: 5px solid #EDCDAF;
+	border-right: 5px solid #EDCDAF;
 }
+
+
+
 footer{
 	clear:both;
 	background: rgb(238,207,174);
     background: linear-gradient(90deg, rgba(238,207,174,1) 5%, rgba(238,174,202,1) 53%, rgba(148,187,233,1) 100%);
 	padding: 7%;
 }
+footer ul{
+	display:flex;
+	flex-direction: row;
+	
+}
+footer ul li{
+	list-style-type: none;
+	width: 30%;
 
+}
 /*Desktop*/
 
 
@@ -118,21 +170,22 @@ h1{
 }
 
 
-	h2{
-		font-size:1.2rem;
-	}
-	aside{
+h2{
+	font-size:1.2rem;
+}
+	
+	.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:6%;
+  
+	
+	
+}
+	section figure{
 		
-		float: left;
-		width: 35%;
-		margin-left:10%;
-		
-		
-	}
-	figure {
-		float:left;
-	    width: 30%;
-		margin-top:-1%;
+	    width: 20%;
+	   padding: 2%;
 	}
 	
 	nav ul li{
@@ -140,15 +193,81 @@ h1{
 		padding:9%;
 		
 	}
-.img{
-	float: left;
-    width:100%;
 	
+aside .container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:6%;
 	}
-	.image{
-		width: 40%;
-		float: left;
-	}
+	
+	section .pink{
+	background-color:#EEB0C7;
+	margin: 0;
+	padding: 2%;
+	margin-left:6%;
 }
+
+section .blue{
+	background-color:#97BAE7;
+	margin: 0;
+	padding: 2%;
+	margin-left:6%;
+}
+
+section .peach{
+	background-color:#EDCDAF;
+	margin: 0;
+	padding: 2%;
+	margin-left:6%;
+}
+
+	.form {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+    margin:3%;
+	}
+	section h3{
+		padding: 0;
+		margin:0;
+		
+	}	
+	.form section{
+	   margin-top:2%;
+		width: 35%;
+		height: 10%;
+		margin-left:10%;
+		
+	}
+	.form aside{
+		width: 40%;
+		margin-top:3%;
+		margin-right:-2%;
+		margin-left:10%;
+
+		
+	}
+	footer{
+		padding:1% 0;
+	}
+	footer ul li{
+	list-style-type: none;
+	width: 30%;
+    padding:0 5%;
+
+}
+	.side{
+	width: 90%;
+	margin-top:-10%;
+	margin-left:-10%;
+	padding: 2%;
+	border-top: 5px solid #EDCDAF;
+	border-left: 5px solid #EDCDAF;
+	border-bottom: 5px solid #EDCDAF;
+	border-right: 5px solid #EDCDAF;
+}
+}
+	
+
 
 
