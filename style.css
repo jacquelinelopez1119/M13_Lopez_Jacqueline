@@ -234,10 +234,9 @@ section .peach{
 	}	
 	.form section{
 	   margin-top:2%;
-		width: 35%;
-		height: 10%;
+		width: 30%;
 		margin-left:10%;
-		
+	
 	}
 	.form aside{
 		width: 40%;
@@ -257,15 +256,20 @@ section .peach{
 
 }
 	.side{
-	width: 90%;
+	width: 100%;
 	margin-top:-10%;
-	margin-left:-10%;
-	padding: 2%;
-	border-top: 5px solid #EDCDAF;
-	border-left: 5px solid #EDCDAF;
-	border-bottom: 5px solid #EDCDAF;
-	border-right: 5px solid #EDCDAF;
+	margin-left:-6%;
+	
+	padding: 3%;
+	
 }
+	.all h3{
+		
+		padding:1% 0;
+		margin: 0 2%;
+		font-size: 1.2rem;
+	}
+
 }
 	
 
